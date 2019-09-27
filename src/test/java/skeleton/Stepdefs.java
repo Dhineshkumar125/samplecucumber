@@ -12,7 +12,7 @@ public class Stepdefs {
 @Given("user is on the login page")
 public void user_is_on_the_login_page() {
   System.out.println("driveris launched and navigated to login page");
-  System.setProperty("windows.chrome.driver", "C:\\Users\\A08019DIRP_C2C.02.02\\Downloads\\chromedriver.exe");
+  System.setProperty("webdriver.chrome.driver", "C:\\Users\\A08019DIRP_C2C.02.02\\Downloads\\chromedriver.exe");
    driver= new ChromeDriver();
   driver.navigate().to("google.com");
 }
