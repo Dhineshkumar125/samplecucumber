@@ -3,7 +3,7 @@ Feature: Login
 
 In order to login in TestMe App
 As a user
-I need to register first
+I need to register it first
 
 Business rules:
  - Ony registered users can do the login
