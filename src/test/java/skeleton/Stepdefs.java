@@ -14,7 +14,7 @@ public void user_is_on_the_login_page() {
   System.out.println("driveris launched and navigated to login page");
   System.setProperty("webdriver.chrome.driver", "C:\\Users\\A08019DIRP_C2C.02.02\\Downloads\\chromedriver.exe");
    driver= new ChromeDriver();
-  driver.navigate().to("google.com");
+  driver.navigate().to("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
 }
 
 @When("user provides the correct credentials")
